@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "start_npx": "npx expo start"
   },
   "dependencies": {
     "expo": "~47.0.12",
@@ -15,7 +16,10 @@
     "react-native": "0.70.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "typescript": "^4.6.3",
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6"
   },
   "private": true
 }
